@@ -1,0 +1,60 @@
+.start{
+    background-color: rgb(28, 135, 135);
+    color: aliceblue;
+    border-color: rgb(83, 127, 154);
+    border-radius: 15px;
+    height:50px;
+    width:100px;
+
+}
+
+.stop{
+    background-color: rgb(28, 135, 135);
+    color: aliceblue;
+    border-color: rgb(83, 127, 154);
+    border-radius: 15px;
+    height:50px;
+    width:100px;
+    
+}
+
+
+.reset{
+    background-color: rgb(28, 135, 135);
+    color: aliceblue;
+    border-color: rgb(83, 127, 154);
+    border-radius: 15px;
+    height:50px;
+    width:100px;
+    
+}
+
+.container{
+    position: fixed;
+    left: 43%;
+    top:200px;
+}
+
+.h1{
+    background-color: rgb(28, 135, 135);
+    color:aliceblue;
+    border-radius: 15px;
+    height:40px;
+    width:400px;
+    position: fixed;
+    left:36%;
+}
+
+.bdy{
+    background-color: rgb(132, 124, 124);
+}
+
+.p{
+    height: 50px;
+    width:100px;
+}
+
+.spn{
+    height: 50px;
+    width:100px;
+}
