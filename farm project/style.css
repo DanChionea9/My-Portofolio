@@ -1,0 +1,255 @@
+body{
+background-color: rgb(33, 213, 36);
+}
+
+.contact{
+    font-family: cursive;
+    font-size:150%;
+    color:white;
+    position: fixed;
+    top:20%;
+    left:5%;
+}
+
+.mid-lane{
+    height: 1000px;
+    width: 900px;
+    background-color: green;
+    position:fixed;
+    top:0%;
+    left:20%;
+}
+
+.title{
+    color:white;
+    font-family: cursive;
+    font-size:200%;
+    position:fixed;
+    top:80px;
+    left: 55%;
+}
+.submit-name{
+    position: fixed;
+    top: 200px;
+    left:2%;
+}
+
+.farm-name{
+    position: fixed;
+    top: 10%;
+    left:35%;
+    color:white;
+    font-family: cursive;
+    font-size:200%;
+}
+
+.map{
+    background-color: rgb(88, 226, 98);
+    width: 870px;
+    height: 600px;
+    position: fixed;
+    top:20%;
+    left:21%;
+}
+
+.sky{
+
+    background-color: aquamarine;
+    width: 870px;
+    height:200px;
+
+}
+.sun{
+    background-image: url("sun.png");
+    width: 300px;
+    height: 300px;
+    position: fixed;
+    top:100px;
+    left:40%;
+}
+
+.clouds1{
+    background-image: url("clouds.png");
+    width: 150px;
+    height:150px;
+    position: fixed;
+    top: 150px;
+
+    animation-name: cld1;
+    animation-duration: 28s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+}
+
+@keyframes cld1 {
+   from{ transform: translateX(50px)
+}
+to{transform: translateX(800px)}
+}
+.clouds2{
+
+    background-image: url("clouds.png");
+    width: 150px;
+    height:150px;
+    position: fixed;
+    top: 200px;
+    left:20%;
+    animation-name: cld2;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+    animation-timing-function: ease;
+
+}
+@keyframes cld2 {
+    from{ transform: translateX(0px)
+ }
+ to{transform: translateX(200px)}
+ }
+
+.clouds3{
+
+    background-image: url("clouds.png");
+    width: 150px;
+    height:150px;
+    position: fixed;
+    top: 140px;
+    left:50%;
+    animation-name: cld3;
+    animation-duration: 35s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+    animation-timing-function: ease;
+}
+@keyframes cld3 {
+    from{ transform: translateX(50px)
+ }
+ to{transform: translateX(180px)}
+ }
+
+ .house{
+    background-image: url("house.png");
+    position: fixed;
+    top:35%;
+    left:55%;
+    width: 350px;
+    height: 350px;
+    scale:600px;
+ }
+
+.seed{
+    background-image: url("first-seed.png");
+    height: 230px;
+    width: 230px;
+    position: fixed;
+    top:50%;
+    left:23%;
+}
+
+.seed-action{
+    visibility: hidden;
+}
+
+
+.action {
+        background-color:#44c767;
+        border-radius:28px;
+        border:1px solid #18ab29;
+        display:inline-block;
+        cursor:pointer;
+        color:#ffffff;
+        font-family:Arial;
+        font-size:17px;
+        padding:16px 31px;
+        text-decoration:none;
+        text-shadow:0px 1px 0px #2f6627;
+        position: fixed;
+        top:75%;
+        left:25%;
+    }
+    .action:hover {
+        background-color:#5cbf2a;
+    }
+
+    .water {
+        background-color:#44c767;
+        border-radius:28px;
+        border:1px solid #18ab29;
+        display:inline-block;
+        cursor:pointer;
+        color:#ffffff;
+        font-family:Arial;
+        font-size:17px;
+        padding:16px 31px;
+        text-decoration:none;
+        text-shadow:0px 1px 0px #2f6627;
+        position: fixed;
+        top:83%;
+        left:25%;
+    }
+    .water:hover {
+        background-color:#5cbf2a;
+    }
+
+    .fertilizer {
+        background-color:#44c767;
+        border-radius:28px;
+        border:1px solid #18ab29;
+        display:inline-block;
+        cursor:pointer;
+        color:#ffffff;
+        font-family:Arial;
+        font-size:17px;
+        padding:16px 31px;
+        text-decoration:none;
+        text-shadow:0px 1px 0px #2f6627;
+        position: fixed;
+        top:83%;
+        left:34%;
+    }
+    .fertilizer:hover {
+        background-color:#5cbf2a;
+    }
+
+    .collect {
+        background-color:#44c767;
+        border-radius:28px;
+        border:1px solid #18ab29;
+        display:inline-block;
+        cursor:pointer;
+        color:#ffffff;
+        font-family:Arial;
+        font-size:17px;
+        padding:16px 31px;
+        text-decoration:none;
+        text-shadow:0px 1px 0px #2f6627;
+        position: fixed;
+        top:83%;
+        left:45%;
+    }
+    .collect:hover {
+        background-color:#5cbf2a;
+    }
+
+
+.silo{
+    position:fixed;
+    top:15px;
+    left: 80%;
+    font-family: Verdana, Geneva, sans-serif;
+font-size: 23px;
+letter-spacing: -0.8px;
+word-spacing: 2px;
+color: #007301;
+font-weight: 700;
+text-decoration: none solid rgb(68, 68, 68);
+font-style: normal;
+font-variant: small-caps;
+text-transform: uppercase;
+}
+
+.carrots{
+    position:fixed;
+    top:20px;
+    left: 80%
+}
